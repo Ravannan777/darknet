@@ -33,7 +33,9 @@ MOCK_PHONE_DATA = {
     "8289804072": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Jio 5G Node", "IP": "192.168.1.105"},
     "7012933061": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Jio 5G Node", "IP": "192.168.5.106"},
     "9605976244": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Airtel", "IP": "192.168.5.107"},
-    "9633417318": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Airtel 5G Mesh", "IP": "192.168.1.109"}
+    "9633417318": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Airtel 5G Mesh", "IP": "192.168.1.109"},
+    "9400195146": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Jio 5G Node", "IP": "192.168.1.113"},
+    "9400794072": {"Location": "Chala, Kannur, Kerala", "Status": "ENCRYPTED / ACTIVE", "ISP": "Jio 5G Node", "IP": "192.168.1.114"},
 }
 
 MOCK_IP_DATA = {
@@ -45,7 +47,7 @@ MOCK_FORENSICS_DATA = {
 }
 
 # Dynamic random arrays — clearly fictional place / device names
-LOCATIONS = ["Chala, Kannur", "Kochi Sector 3", "Kozhikode City", "Trivandrum Central", "Bengaluru Hub" , "Mumbai Gateway", "Delhi Sector 7", "Chennai Node 5", "Hyderabad Mesh", "Pune Satellite Link" ,"kerala", "Goa Coastal Node", "Jaipur Desert Link", "Lucknow Central Hub", "Kolkata Riverfront", "Ahmedabad Industrial Zone"]
+LOCATIONS = [" Kannur", "Kozhikode City","kerala"]
 ISPS = ["Jio 5G Alpha Node", "Airtel 5G Mesh", "Vi 4G Satellite Bridge", "BSNL Quantum Fiber"]
 DEVICES = ["Android Rogue Terminal", "Infinix Custom Kernel", "Encrypted Linux Phone", "Samsung Cyber-Node", "iOS Jailbreak Device", "Pixel Quantum Phone", "OnePlus Stealth Edition", "Redmi Shadow Device", "Nokia Secure Comm", "Motorola Phantom Device"]
 
