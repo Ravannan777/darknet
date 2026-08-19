@@ -317,9 +317,9 @@ def email_tracker():
         data = MOCK_EMAIL_DATA[email]
     else:
         data = {
-            "Phone": f"+91 {random.randint(70000, 99999)} {random.randint(10000, 99999)}",
-            "Device": random.choice(DEVICES),
-            "IMEI": str(random.randint(100000000000000, 999999999999999)),
+            "Phone": f"",
+            "Device": ,
+            "IMEI": str,
             "Status": "AUTHENTICATED / ONLINE",
         }
 
