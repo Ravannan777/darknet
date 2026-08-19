@@ -40,15 +40,23 @@ MOCK_PHONE_DATA = {
 }
 
 MOCK_IP_DATA = {
-    "192.168.1.104": {"Gateway": "RED-ROUTER NODE #804", "Location": "Fictional City Sector 4", "Status": "FIREWALL BYPASSED"},
-}
+
+      "192.168.1.104": {"Gateway": "RED-ROUTER NODE #804", "Location": "Fictional City Sector 4", "Status": "FIREWALL BYPASSED"},
+      "192.168.1.105": {"Gateway": "RED-ROUTER NODE #805", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"},
+      "192.168.5.106": {"Gateway": "RED-ROUTER NODE #806", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"},
+      "192.168.5.107": {"Gateway": "RED-ROUTER NODE #807", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"},
+      "192.168.1.109": {"Gateway": "RED-ROUTER NODE #809", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"}, 
+      "192.168.1.113": {"Gateway": "RED-ROUTER NODE #813", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"},
+      "192.168.1.114": {"Gateway": "RED-ROUTER NODE #814", "Location": " Kannur, Kerala", "Status": "FIREWALL BYPASSED"},
+      "192.168.1.115": {"Gateway": "RED-ROUTER NODE #815", "Location": " Kerala", "Status": "FIREWALL BYPASSED"},
+  }
 
 MOCK_FORENSICS_DATA = {
     "dump.bin": {"Artifacts": "450 MB RAW DATA RECOVERED", "Messages": "128 Deleted SMS Restored", "Key": "AES-256 MASTER KEY ENGAGED"},
 }
 
 # Dynamic random arrays — clearly fictional place / device names
-LOCATIONS = [" Kannur", "Kozhikode City", "kerala"]
+LOCATIONS = ["kerala"]
 ISPS = ["Jio 5G Alpha Node", "Airtel 5G Mesh", "Vi 4G Satellite Bridge", "BSNL Quantum Fiber"]
 DEVICES = ["Android Rogue Terminal", "Infinix Custom Kernel", "Encrypted Linux Phone", "Samsung Cyber-Node", "iOS Jailbreak Device", "Pixel Quantum Phone", "OnePlus Stealth Edition", "Redmi Shadow Device", "Nokia Secure Comm", "Motorola Phantom Device"]
 
@@ -319,7 +327,7 @@ def email_tracker():
         data = {
             "Phone": "",
             "Device": "",
-             "IMEI": "",
+            "IMEI": "",
             "Status": "AUTHENTICATED / ONLINE",
         }
 
